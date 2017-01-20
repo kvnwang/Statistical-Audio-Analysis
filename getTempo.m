@@ -1,8 +1,5 @@
 function [ bpm ] = getTempo( signal, fs )
 %	Tempo Tracking
-%
-%	Sam Drazin
-%	MMI 505 - Assignment #4
 
 min_tempo = 40;
 max_tempo = 180;
